@@ -11,4 +11,4 @@
 7. convert to readable assembly (disas.py)
 8. reverse asm by hand (output_annotated.asm)
 9. solve part of it with z3
-10. guess the part z3 should be solving, because you don't have enough constraints
+10. ~~guess the part z3 should be solving, because you don't have enough constraints~~ actually, you have enough constraints since apparently rust cannot overflow primitive types, but I only found that out afterwards.
